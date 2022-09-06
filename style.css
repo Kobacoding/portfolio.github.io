@@ -67,7 +67,7 @@ ul a:hover {
     width: 70%;
 }
 
-.about_me{
+.about_me {
     text-align: justify;
 }
 
@@ -116,22 +116,6 @@ ul a:hover {
     position: relative;
     display: inline-block;
     padding-left: 20px;
-}
-
-#arrow::before {
-    content: '';
-    width: 6px;
-    height: 6px;
-    border: 0px;
-    border-top: solid 2px black;
-    border-right: solid 2px black;
-    -ms-transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
-    position: absolute;
-    top: 50%;
-    left: 0;
-    margin-top: -4px;
 }
 
 @media(max-width:788px) {
