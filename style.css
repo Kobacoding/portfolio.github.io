@@ -73,11 +73,11 @@ ul a:hover {
 
 .container {
     margin: 8px;
-    outline: 1px solid red;
     min-width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding:2%;
 }
 
 .biography dl {
