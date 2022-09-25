@@ -161,4 +161,8 @@ footer {
     .pc_view {
         display: flex;
     }
+
+    .biography dl dt::after {
+        left: 102px;
+    }
 }
