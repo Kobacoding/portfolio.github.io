@@ -99,7 +99,7 @@ ul a:hover {
     background-color: black;
     position: absolute;
     top: 4px;
-    left: 100px;
+    left: 102px;
     color: rgba(30, 32, 34, 1);
 }
 
@@ -122,22 +122,6 @@ ul a:hover {
     padding: 4px;
 }
 
-@media(max-width:788px) {
-    dl dd h3 {
-        margin-bottom: 16px;
-    }
-
-    dl dd p {
-        display: none;
-    }
-
-    .profile_pic {
-        width: 40%;
-        height: auto;
-        margin: 0 auto;
-    }
-}
-
 .skill_container dl {
     display: flex;
     justify-content: space-around;
@@ -157,12 +141,35 @@ footer {
     text-align: center;
 }
 
+@media(max-width:788px) {
+    dl dd h3 {
+        margin-bottom: 16px;
+    }
+
+    dl dd p {
+        display: none;
+    }
+
+    .profile_pic {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
 @media(min-width:789px) {
     .pc_view {
         display: flex;
     }
 
-    .biography dl dt::after {
-        left: 102px;
+    .skills .skill_container {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .skills .skill_container dt,
+    .skills .skill_container dd {
+        width: 200px;
     }
 }
